@@ -4,13 +4,13 @@ Projeto Prático da PÓS WEB - DISCIPLINA - JAVA BÁSICO
 #  EndPoints
 Crud Completo para os recursos
 
-  #User
-    http://localhost:8081/api/user      - GET
-    http://localhost:8081/api/user/{id} - GET
-    http://localhost:8081/api/user      - POST
-    http://localhost:8081/api/user      - PUT
-    http://localhost:8081/api/user      - DELETE
-    http://localhost:8081/api/user/{id} - DELETE
+	  #User
+	    http://localhost:8081/api/user      - GET
+	    http://localhost:8081/api/user/{id} - GET
+	    http://localhost:8081/api/user      - POST
+	    http://localhost:8081/api/user      - PUT
+	    http://localhost:8081/api/user      - DELETE
+	    http://localhost:8081/api/user/{id} - DELETE
     
  	  #Playlist
 	    http://localhost:8081/api/playlist      - GET
@@ -20,13 +20,13 @@ Crud Completo para os recursos
 	    http://localhost:8081/api/playlist      - DELETE
 	    http://localhost:8081/api/playlist/{id} - DELETE
     
-  #Musica
-    http://localhost:8081/api/musica      - GET
-    http://localhost:8081/api/musica/{id} - GET
-    http://localhost:8081/api/musica      - POST
-    http://localhost:8081/api/musica      - PUT
-    http://localhost:8081/api/musica      - DELETE
-    http://localhost:8081/api/musica/{id} - DELETE
+	  #Musica
+	    http://localhost:8081/api/musica      - GET
+	    http://localhost:8081/api/musica/{id} - GET
+	    http://localhost:8081/api/musica      - POST
+	    http://localhost:8081/api/musica      - PUT
+	    http://localhost:8081/api/musica      - DELETE
+	    http://localhost:8081/api/musica/{id} - DELETE
     
 	  #Autor
 	    http://localhost:8081/api/autor      - GET
