@@ -3,44 +3,40 @@ package dev.fujioka.ailton.ApiMusica.service;
 import java.util.List;
 import java.util.Optional;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import dev.fujioka.ailton.ApiMusica.model.User;
-import dev.fujioka.ailton.ApiMusica.repository.UserRepository;
+import dev.fujioka.ailton.ApiMusica.model.Playlist;
+import dev.fujioka.ailton.ApiMusica.repository.PlaylistRepository;
 
 @Service
-public class UserService implements IService<User> {
-
-    @Autowired
-    private UserRepository repository;
+public class PlaylistService implements IService<Playlist>{
+	
+	@Autowired
+	private PlaylistRepository repository;
 
 	@Override
-	public List<User> findAll() {
+	public List<Playlist> findAll() {
 		
 		return repository.findAll();
 	}
 
 	@Override
-	public Optional<User> findById(Long id) {
+	public Optional<Playlist> findById(Long id) {
 		
 		return repository.findById(id);
 	}
 
 	@Override
-	public User save(User entity) {
-
+	public Playlist save(Playlist entity) {
 		return repository.save(entity);
 		
 	}
 
 	@Override
-	public User delete(User entity) {
+	public Playlist delete(Playlist entity) {
 		repository.delete(entity);
-		return entity;		
+		return entity;
 		
 	}
 
@@ -51,5 +47,6 @@ public class UserService implements IService<User> {
 	}
 
 	
+
 
 }
