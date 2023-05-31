@@ -1,5 +1,5 @@
 ### 💻 Project
-App developed for challenge and studies.
+Api developed for challenge and studies.
 
 #### :hammer_and_wrench: Features 
 
